@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Forms</h1>
+    </header>
+    <main>
+        <form action="" target="_blank">
+            <fieldset>
+                <div>
+                    <span><b>Date Personale</b></span>
+                    <br><br>
+                    <label for="firstName">Nume</label>
+                    <input type="text" name="firstName" id="firstName" minlength="3" maxlength="10">
+                    <br>
+                    <br>
+                    <label for="lastName">Prenume</label>
+                    <input type="text" name="lastName" id="lastName" minlength="3" maxlength="10">
+                    <br><br>
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email">
+                    <br><br>
+                    <label for="password">Parola</label>
+                    <input type="password" id="password" name="password" required>
+                    <br><br>
+                    <label for="female">Femeie</label>
+                    <input type="radio" id="female" name="gender" required>
+                    <label for="male">Barbat</label>
+                    <input type="radio" id="male" name="gender" required>
+                    <br><br>
+                    <label for="nationality">Nationalitate</label>
+                    <select name="nationality" id="nationality" required>
+                        <option value="Romania">Romania</option>
+                        <option value="Germania">Germania</option>
+                        <option value="UK">Marea Britanie</option>
+                        <option value="Spania">Spania</option>
+                    </select>
+                </div>
+                <br><br>
+                <div>
+                    <span><b>Mancare Preferata</b></span>
+                    <br><br>
+                    <label for="sarmale">Sarmale</label>
+                    <input type="checkbox" name="sarmale" id="sarmale">
+                    <label for="mamaliga">Mamaliga</label>
+                    <input type="checkbox" name="mamaliga" id="mamaliga">
+                    <label for="paella">Paella</label>
+                    <input type="checkbox" name="paella" id="paella">
+                </div>
+                <br><br>
+                <label for="message">Mesaj</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Scrie-ne despre experienta ta culinara"></textarea>
+                <br><br>
+                <label for="startingDate">Data inceperii jobului</label>
+                <input type="date" name="startingDate" id="startingDate">
+                <br><br>
+                <button>Trimite</button>
+                <legend>Inscrie-te ca degustator</legend>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
